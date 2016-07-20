@@ -1,0 +1,110 @@
+/*
+Theme Name: Blog kulinarny
+Theme URI: http://www.int-media.pl
+Author: Dawid Mazur / Lu Di
+Author URI: http://www.dawid-mazur.pl
+Description: Szablon bloga kulinarnego
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, jedzenie,
+Text Domain: blog
+*/
+
+body    {
+    background-image: url(/img/background.png);
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: brown;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.bg-slider {
+    background-image: url(/img/tlo-slider.png);
+    border-top: 10px solid brown;
+    border-bottom: 10px solid brown;
+    padding: 25px 0;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: 'Lobster', cursive;
+}
+
+.bg-slider h1 {
+    font-size: 4em;
+}
+
+a, a:hover, a:visited   {
+    color: brown;
+}
+
+.bg-slider .btn {
+    margin-bottom: 15px;
+}
+
+.bg-white {
+    background-color: #fff;
+    margin: 5px 0px 15px 0px;
+    padding: 15px 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.bg-sidebar {
+    background-color: #fff;
+    margin: 5px 0px 15px 0px;
+    padding: 0px 15px 15px 15px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: ;
+}
+
+footer {
+    background-image: url(/img/tlo-slider.png);
+    border-top: 10px solid brown;
+    padding: 25px 0;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer h6   {
+    font-size: 3em;
+}
+
+.title  {
+    margin-top: 0px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.single-padding {
+    padding: 15px;
+}
+
+.widget {
+    list-style: none;
+}
